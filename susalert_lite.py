@@ -456,9 +456,9 @@ class App(tk.Tk):
         x = self.cfg.get("window_x")
         y = self.cfg.get("window_y")
         if isinstance(x, int) and isinstance(y, int):
-            self.geometry(f"295x132+{x}+{y}")  # +15px width
+            self.geometry(f"315x132+{x}+{y}")  # +15px width
         else:
-            self.geometry("295x132+0+0")       # +15px width
+            self.geometry("315x132+0+0")       # +15px width
 
         self._base_h = 132
 
